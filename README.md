@@ -1,6 +1,6 @@
 # sb-product-model
 
-An element providing a starting point for your own reusable Polymer elements.
+Exploring patterns for data models using custom polymer elements.
 
 
 ## Dependencies
