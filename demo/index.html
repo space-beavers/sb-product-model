@@ -24,7 +24,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <p>Load Product from local context object <button id="loadDefault">Load Product</button></p>
     <p>Load Product from api <button id="loadFromAPI">Load Product</button></p>
 
-    <sb-product-model sku="10415421"></sb-product-model>
+    <sb-product-model sku="10415421" load-from-context></sb-product-model>
 
 
     <script>
@@ -40,7 +40,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       });
 
       document.addEventListener("sb-product-model-loaded", function(e) {
-        console.log('product loaded!', e.detail.product);
+        alert('product loaded! => ' + e.detail.product.name);
       });
 
     </script>
